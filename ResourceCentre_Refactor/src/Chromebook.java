@@ -11,7 +11,7 @@ public class Chromebook extends Item{
 		return os;
 	}
 	
-	public String toString(){
+	public String toString(){ // Wei Le
 		String output = super.toString();
 		output = String.format("%-63s %-20s ", output , os);
 		
